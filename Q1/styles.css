@@ -13,21 +13,145 @@ body {
     height: 100vh;
 }
 
-.product-card{
+.product-card {
     width: 800px;
-    border: 1px;
-    position: relative;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    border: 3px solid black;
 }
 
-h1 {
+.sale-tag {
+    position: absolute;
+    top: 126px;
+    left: 255px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.product-header {
+    background-color: rgb(230, 230, 215);
+    padding: 5px;
+    padding-top: 10px;
+}
+.product-header h1 {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: lightgray;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
-.productImage, .desciption, .details {
+.product-content {
+    display: flex;
+    gap: 20px;
+}
+
+.productImage img {
+    width: 300;
+    height: auto;
+    border: 1px solid #000;
+}
+
+.desciption {
+    flex: 1;
+    padding-left: 10px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.price h2 {
+    padding-top: 15px;
+    font-size: 18px;
+    color: black;
+}
+
+.free-shipping {
+    font-size: 10px;
+    font-weight: bold;
+    color: gray;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-left: 70px;
+}
+
+.desciption p {
+    font-size: 14px;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.desciption a {
+    color: black;
+    display: flex;
+    margin: 10px 0;
+}
+
+.color-box {
     display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 2.5px;
+    cursor: pointer;
+}
+
+.color-box.black {
+    background-color: black;
+}
+
+.color-box.blue {
+    background-color: blue;
+}
+
+.color-box.red {
+    background-color: red;
+}
+
+.color-box.yellow {
+    background-color: rgb(255, 187, 0);
+}
+
+.color-box.green {
+    background-color: rgb(33, 209, 17);
+}
+
+.color-box.brown{
+    background-color:   rgb(165, 87, 42);
+}
+
+.details{
+    padding-top: 15px;
+}
+.details h3{
+    font-size: 18px;
+}
+.details li {
+    list-style: disc;
+    margin: 20px 0 0 20px;
+    line-height: 14px;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.cartButton {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    margin-top: 0;
+    
+  
+}
+
+.cartButton:hover{
+    background-color: white;
+    color: black;
 }
