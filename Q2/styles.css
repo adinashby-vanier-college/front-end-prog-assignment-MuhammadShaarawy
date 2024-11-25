@@ -53,17 +53,16 @@ body {
     cursor: pointer;
 }
 
-.android-2 {
+.android-1 {
     height: 45px;
     width: 30px;
+    cursor: pointer;
 }
 
 .iphone-dog {
-    width: 250px; /* Adjust the width of the image */
-    height: 450px; /* Maintains the aspect ratio */
+    width: 250px;
+    height: 450px;
     transform: rotate(25deg); 
-    /* padding-left: 150px;*/
-    /* padding-top: 80px; */
     margin-left: 300px;
     margin-bottom: 0px;
 }
@@ -252,7 +251,6 @@ body {
     padding: 10px 20px;
     margin: 5px;
     font-size: 1.3em;
-    cursor: pointer;
    
 }
 
@@ -260,11 +258,13 @@ body {
     background-color: black;
     color: white;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .android-2 {
     height: 45px;
     width: 30px;
+    cursor: pointer;
 }
 
 footer {
