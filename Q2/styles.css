@@ -41,12 +41,32 @@ body {
 }
 
 .download-btns {
-    padding-right: 30px;
-    width: 150px;
-    height: 50px;
-    font-size: 1.5rem;
+    display: inline-flex;
 }
 
+.apple-1 {  
+    display: inline-flex;
+    gap: 8px;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 0.5em;
+    cursor: pointer;
+}
+
+.android-2 {
+    height: 45px;
+    width: 30px;
+}
+
+.iphone-dog {
+    width: 250px; /* Adjust the width of the image */
+    height: 450px; /* Maintains the aspect ratio */
+    transform: rotate(25deg); 
+    /* padding-left: 150px;*/
+    /* padding-top: 80px; */
+    margin-left: 300px;
+    margin-bottom: 0px;
+}
 .section-2 {
     background-color: #fefefe;
 }
@@ -226,23 +246,25 @@ body {
 }
 
 .download-button {
+    display: inline-flex;
+    gap: 8px;
     border: none;
     padding: 10px 20px;
     margin: 5px;
-    font-size: 2em;
+    font-size: 1.3em;
     cursor: pointer;
-    border-radius: 10px;
+   
 }
 
 .ios {
     background-color: black;
     color: white;
+    border-radius: 10px;
 }
 
-.android {
-    background-color: white;
-    color: black;
-    border: 2px solid black;
+.android-2 {
+    height: 45px;
+    width: 30px;
 }
 
 footer {
@@ -255,7 +277,7 @@ footer {
 .social-links a {
     margin: 0 10px;
     font-size: 1.2em;
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
