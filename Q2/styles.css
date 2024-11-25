@@ -1,0 +1,93 @@
+* {
+    margin: 1%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-1 {
+    margin-right: 15%;
+    margin-left:5%;
+    background-color: #ff4d6d;
+}
+
+.section-1 header {
+    /* display: flex;
+    justify-content: space-between; */
+    /* background-color: #ff4d6d; */
+}
+
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    padding-left: 300%;
+    gap: 20px;
+}
+
+.iphone-btn {
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+
+.android-btn {
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+.section-2 {
+    padding: 50px 15px;
+    background-color:#fefefe;
+    /* Light background color */
+}
+
+.feature-icon {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    color: #f28a8a;
+    margin: 0 auto 15px;
+}
+
+.feature-heading {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.feature-text {
+    font-size: 0.95rem;
+    margin: 0 auto;
+    line-height: 1.5;
+    max-width: 250px;
+}
+
+/* .sec-2-row {
+    display: flex;
+} */
+
+@media(max-width: 768px) {
+    .feature-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+
+    .feature-heading {
+        font-size: 1.1rem;
+    }
+
+    .feature-text {
+        font-size: 0.9rem;
+    }
+}
